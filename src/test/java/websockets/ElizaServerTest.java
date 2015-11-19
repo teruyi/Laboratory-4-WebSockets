@@ -88,6 +88,7 @@ public class ElizaServerTest {
 		latch.await();
 		assertEquals(5, list.size());
 		assertEquals("Why not?", "Are you sure?", list.get(3));
+		
 	}
 
 	@After
